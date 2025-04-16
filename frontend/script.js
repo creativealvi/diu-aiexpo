@@ -268,7 +268,7 @@ stopBtn.onclick = function() {
 function sendToBot(text) {
   statusText.innerText = "Processing...";
   
-  fetch("/.netlify/functions/message", {
+  fetch("/functions/message", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message: text })
