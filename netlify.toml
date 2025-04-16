@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions"
+  publish = "frontend"
+
+[[redirects]]
+  from = "/message"
+  to = "/.netlify/functions/message"
+  method = "POST"
+  status = 200
