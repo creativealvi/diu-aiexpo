@@ -1,6 +1,6 @@
 [build]
-  functions = "netlify/functions"
-  publish = "frontend"
+  publish = "public"
+  functions = "functions"
 
 [[redirects]]
   from = "/message"

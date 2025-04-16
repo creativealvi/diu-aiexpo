@@ -1,0 +1,8 @@
+{
+    "name": "diaa-backend",
+    "type": "module",
+    "dependencies": {
+      "@google-cloud/dialogflow-cx": "^4.0.0"
+    }
+  }
+  
